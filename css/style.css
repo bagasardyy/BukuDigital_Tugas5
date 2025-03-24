@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.category-card,
+.book-card {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.category-card:hover,
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  height: 250px;
+  object-fit: cover;
+}
